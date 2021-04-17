@@ -3677,10 +3677,10 @@ if (isBanned) return reply('```Lu kebanned kontol```')
 					const uangku = checkATMuser(sender)
                     wew = fs.readFileSync(`./src/logo.jpg`)
                     shiz = `◪ INFO DEVELOPER
-  ► Nama : Miku
-  ► WhatsApp : Wa.me/6289666262976
-  ► Instagram : instagram.com/miku.bot
-  ► GitHub : Github.com/ojanganz
+  ► Nama : Better
+  ► WhatsApp : Wa.me/6282169369877
+  ► Instagram : instagram.com/aardnnn_
+  ► GitHub : Github.com/ferdiard
   ► ApiKey : https://api-mikubot.herokuapp.com
   ----------------------------------
 ◪ YOUR INFO
@@ -3976,11 +3976,10 @@ if (isBanned) return reply('```Lu kebanned kontol```')
  
 [ Thanks To ]
 • ALLAH SWT
-• ITSMEIKY
-• RamlanID
-• ALPIN OFC
-• DAPPA
-• MEM MIKUBOT
+• Legio17
+• Catalysmic Class
+• Nabilah ><
+• Saya Sendiri
  
 📄NOTE : 
 Spam call,Spam command = *BLOCK + BANNED*` 
