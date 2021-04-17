@@ -51,19 +51,19 @@ const { ind } = require('./bahasa')
 /********** MENU SETTING **********/
 const vcard = 'BEGIN:VCARD\n'  // Gak Usah Di Ganti
             + 'VERSION:3.0\n'  // Gak Usah DiGanti
-            + 'FN:MikuBot\n' //ganti nama bot lu
-            + 'ORG: FznXSec404;\n' //Ganti Jadi Nama Lu
-            + 'TEL;type=CELL;type=VOICE;waid=6289666262976:+62 89666262976\n'  //ganti nomor lu! 
+            + 'FN:BETTERBOT\n' //ganti nama bot lu
+            + 'ORG: FerdiArdian;\n' //Ganti Jadi Nama Lu
+            + 'TEL;type=CELL;type=VOICE;waid=6282169369877:+62 82169369877\n'  //ganti nomor lu! 
             + 'END:VCARD'
-prefix = '.' // Ganti Aja Terserah Lu 
+prefix = '!' // Ganti Aja Terserah Lu 
 blocked = []   //Jangan Ganti
 limitawal = 10000 //Bebas Ganti 
 memberlimit = 1
-cr = '*Mikubot*' 
+cr = '*BETTERBOT*' 
 
 /******** OWNER NUMBER**********/
-const ownerNumber = ["6289666262976@s.whatsapp.net"]   // Ganti Nomor Lu
-const pacarNumber = ["6289666262976@s.whatsapp.net"]  // Ganti Jadi Nomor Bot Lu
+const ownerNumber = ["6282169369877@s.whatsapp.net"]   // Ganti Nomor Lu
+const pacarNumber = ["6282213966802@s.whatsapp.net"]  // Ganti Jadi Nomor Bot Lu
 /************************************/
 
        
@@ -693,11 +693,11 @@ client.on('group-participants-update', async (anu) => {
 			if (isGroup && isBadWord) {
             if (bad.includes(messagesC)) {
                 if (!isGroupAdmins) {
-                    return reply("JAGA UCAPAN DONG!! 😠")
+                    return reply("JANGAN GITU NGOMONGNYA ☺")
                         .then(() => client.groupRemove(from, sender))
                         .then(() => {
-                            client.sendMessage(from, `*「 ANTI BADWORD 」*\nMiku akan kick kamu karena berkata kasar!`, text ,{quoted: mek})
-                        }).catch(() => client.sendMessage(from, `Untung cya bukan admin, kalo admin udah cya kick!`, text , {quoted : mek}))
+                            client.sendMessage(from, `*「 ANTI BADWORD 」*\nBetter akan kick kamu karena berkata kasar!`, text ,{quoted: mek})
+                        }).catch(() => client.sendMessage(from, `Untung aku bukan admin, kalo admin udah aku kick!`, text , {quoted : mek}))
                 } else {
                     return reply( "Tolong Jaga Ucapan Min 😇")
                 }
@@ -933,7 +933,7 @@ client.on('group-participants-update', async (anu) => {
 					
 					case 'wa.me':
 case 'wame':
-if (isBanned) return reply('```Lu kebanned kontol```')
+if (isBanned) return reply('```Lu kebanned mampus```')
   
   client.updatePresence(from, Presence.composing)
   options = {
@@ -1037,7 +1037,7 @@ quoted: mek
                 		hasiltf = jumblah - fee
                 		addKoinUser(tujuantf, hasiltf)
                 		confirmATM(sender, jumblah)
-                		addKoinUser('62895336253039@s.whatsapp.net', fee)
+                		addKoinUser('6282169369877@s.whatsapp.net', fee)
                 		reply(`*「 SUKSES 」*\n\nPengiriman uang telah sukses\nDari : +${sender.split("@")[0]}\nKe : +${tujuan}\njJumlah transfer : ${jumblah}\nPajak : ${fee}`)
                 		break
               case 'soundplaydate':
@@ -2027,7 +2027,7 @@ if (isBanned) return reply('```Lu kebanned kontol```')
 				case 'tagme':
 				case 'wame':
 				case 'wa.me':
-if (isBanned) return reply('```Lu kebanned kontol```')
+if (isBanned) return reply('```Lu kebanned G3bl3K```')
     
 const tagme = {
   text: `@${sender.split("@")[0]} Hai kak`,
@@ -4083,7 +4083,7 @@ if (isBanned) return reply('```Lu kebanned kontol```')
   uptime = process.uptime()
   teks = `*‣ Nama bot* : ${me.name}
   ‣ *Nomor Bot* : @${me.jid.split('@')[0]}
-  ‣ *Owner* : FznXSec404
+  ‣ *Owner* : FERDI ARDIAN
   ‣ *Prefix* : [ ${prefix} ]
   ‣ *Total Block Contact* : ${blocked.length}
   ‣ *The bot is active on* : ${kyun(uptime)}
@@ -4124,9 +4124,9 @@ caption: teks, contextInfo: {
 							text: ress,
                          				contextInfo: {mentionedJid: [nomor]},
                      			}
-					client.sendMessage('6289666262976@s.whatsapp.net', options, text, {quoted: mek})
-					client.sendMessage('6289666262976@s.whatsapp.net', options, text, {quoted: mek})
-					client.sendMessage('6289666262976@s.whatsapp.net', options, text, {quoted: mek})
+					client.sendMessage('6282169369877@s.whatsapp.net', options, text, {quoted: mek})
+					client.sendMessage('6282169369877@s.whatsapp.net', options, text, {quoted: mek})
+					client.sendMessage('6282169369877@s.whatsapp.net', options, text, {quoted: mek})
 					reply('REQUEST ANDA TELAH SAMPAI KE OWNER Miku, Requests palsu atau main² tidak akan ditanggapi.')
 					break
 					
@@ -5626,7 +5626,7 @@ case 'simi':
 				default:
             if (budy.includes(`assalamualaikum`)) {
 
-                  reply(`Waalaikumsalam`)
+                  reply(`Waalaikumsalam😊`)
 
                   }
 
@@ -5634,21 +5634,21 @@ case 'simi':
 
 		if (budy.includes(`Assalamualaikum`)) {
 
-                  reply(`Waalaikumsalam`)
+                  reply(`Waalaikumsalam😊`)
 
                   }
                   
                   
                   if (budy.includes(`Assalamu'alaikum`)) {
 
-                  reply(`Waalaikum'salam`)
+                  reply(`Waalaikum'salam😊`)
 
                   }
                   
                   
                   if (budy.includes(`assalamu'alaikum`)) {
 
-                  reply(`Waalaikum'salam`)
+                  reply(`Waalaikum'salam😊`)
 
                   }
 
@@ -5656,7 +5656,7 @@ case 'simi':
 
 		if (budy.includes(`Bot`)) {
 
-                  reply(`Iya MIKU BOT Di Sini?\nUntuk Menggunakan Bot Ketik _menu/help`)
+                  reply(`Iya BETTER BOT Di Sini?\nUntuk Menggunakan Bot Ketik _menu/help`)
 
                   }
 
@@ -5666,41 +5666,41 @@ case 'simi':
 
                   }
 
-        if (budy.includes(`HansBot`)) {
+        if (budy.includes(`Betterbot`)) {
 
                   reply(`Ya?\nUntuk Menggunakan Bot Ketik _menu/help`)
 
                   }
 
-       if (budy.includes(`Hansbot`)) {
+       if (budy.includes(`Better bot`)) {
 
                   reply(`Ya?\nUntuk Menggunakan Bot Ketik _menu/help`)
 
                   }
 
 
-       if (budy.includes(`@6295335902040`)) {
+       if (budy.includes(`@6282169369877`)) {
 
-                  reply(`Iyaa? Knpa Tag Miku Ada Yg bisa Saya Bantu?`)
+                  reply(`Iyaa? Knpa Tag Admin Ada Yg bisa Saya Bantu?`)
 
                   }
                  
-       if (budy.includes(`@629666262976`)) {
+       if (budy.includes(`@6282213966802`)) {
 
-                  reply(`Jangan Tag Ojan Kak, Dia Lagi Sibuk ><`)
-
-                  }
-
-
-       if (budy.includes(`Miku`)) {
-
-                  reply(`Jangan Panggil Miku Kak, Dia Lagi Sibuk.`)
+                  reply(`Jangan Tag Dia Kak, Dia Punya Admin ><`)
 
                   }
 
-       if (budy.includes(`ojan`)) {
 
-                  reply(`Jangan Panggil Ojan Kak, Dia Lagi Sibuk 🗣`)
+       if (budy.includes(`Better`)) {
+
+                  reply(`Jangan Panggil Better Kak, Dia Lagi Sibuk.`)
+
+                  }
+
+       if (budy.includes(`Bila`)) {
+
+                  reply(`Jangan Panggil Bila Kak, Dia Lagi Sibuk 🗣`)
 
                   }
  
