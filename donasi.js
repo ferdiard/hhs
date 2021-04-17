@@ -5,7 +5,7 @@ const donasi = () => {
   ❏ *PULSA*
   ❏ 0821-6936-9877
   ❏ *INSTAGRAM*
-  ❏ https://instagram.com/aardnnn`
+  ❏ https://instagram.com/aardnnn_`
 }
 
 exports.donasi = donasi
